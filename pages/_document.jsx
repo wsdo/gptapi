@@ -16,19 +16,6 @@ export default function Document() {
 })();
           `}
         </Script>
-
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-MLSFWR0JC4');
-        `}
-        </Script>
       </Head>
       <body className="bg-white dark:bg-slate-900">
         <Main />
