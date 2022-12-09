@@ -20,6 +20,10 @@ export default function Home() {
           无需注册体验: <a href="https://chat.bygpt.com">Chat By GPT</a>
         </h1>
 
+        <h1 className={styles.title}>
+          github: <a href="https://github.com/wsdo/gptapi">https://github.com/wsdo/gptapi</a>
+        </h1>
+
         <p className={styles.description}>
           由 GPT API{' '} 强力驱动：  <a href="https://gptapi.cn">https://gptapi.cn</a>
           <code className={styles.code}>By GPT</code>
