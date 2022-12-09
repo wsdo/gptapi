@@ -31,7 +31,6 @@ export default function Home() {
           <code className={styles.code}>{`
           curl --location --request POST 'https://v1.gptapi.cn' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5kZXZjdG8uY29tL3YxL2xvZ2luIiwiaWF0IjoxNjY5MTIyMjU0LCJleHAiOjE4MjQ2NDIyNTQsIm5iZiI6MTY2OTEyMjI1NCwianRpIjoiUlB6bXZlN0xvbEp3V2FxVCIsInN1YiI6NTAsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.pj1mOVkFOsmeuX4kVxlrK-j3PhEOecq53vrxe_mRfpI' \
 --data-raw '{
     "message":"讲个笑话"
 }'
@@ -51,7 +50,6 @@ var config = {
    url: 'https://v1.gptapi.cn',
    headers: { 
       'Content-Type': 'application/json', 
-      'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5kZXZjdG8uY29tL3YxL2xvZ2luIiwiaWF0IjoxNjY5MTIyMjU0LCJleHAiOjE4MjQ2NDIyNTQsIm5iZiI6MTY2OTEyMjI1NCwianRpIjoiUlB6bXZlN0xvbEp3V2FxVCIsInN1YiI6NTAsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.pj1mOVkFOsmeuX4kVxlrK-j3PhEOecq53vrxe_mRfpI', 
       'Content-Length': ''
    },
    data : data
