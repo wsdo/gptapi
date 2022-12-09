@@ -111,7 +111,7 @@ axios(config)
         >
           Powered by{' '}
           <span className={styles.logo}>
-            GPT api 强力驱动
+            由 GPT API{' '} 强力驱动：  <a href="https://gptapi.cn">https://gptapi.cn</a>
           </span>
         </a>
       </footer>
