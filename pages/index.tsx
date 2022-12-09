@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          打造基于 GPT-3 的搜索引擎
+          无需 token  GPTAPI  V1
         </h1>
 
         <h1 className={styles.title}>
@@ -39,7 +39,7 @@ export default function Home() {
           `}</code>
         </p>
         <p className={styles.description}>
-          axios使用方式：
+          axios 使用方式：
 
           <code className={styles.code}>{`
 var axios = require('axios');
