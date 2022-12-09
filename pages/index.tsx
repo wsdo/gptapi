@@ -21,7 +21,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          由 GPT API{' '} 强力驱动：  <a href="https://gtpapi.cn">https://gtpapi.cn</a>
+          由 GPT API{' '} 强力驱动：  <a href="https://gptapi.cn">https://gptapi.cn</a>
           <code className={styles.code}>By GPT</code>
         </p>
 
