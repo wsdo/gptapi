@@ -28,7 +28,8 @@ export default function Home() {
           由 GPT API{' '} 强力驱动：  <a href="https://gptapi.cn">https://gptapi.cn</a>
           <code className={styles.code}>By GPT</code>
         </p>
-
+        <p className={styles.description}> 使用问题可以加群 </p>
+        <img width={300} src="/wx.png" alt="" />
         <p className={styles.description}>
           curl 使用方式：
 
