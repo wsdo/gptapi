@@ -30,7 +30,7 @@ export default function Home() {
         </p>
         <p className={styles.description}> 使用问题可以加群 <img width={300} src="/wx.png" alt="" /></p>
         <p className={styles.description}>
-          服务器已经撑爆了，如果慢，请等一会，大佬可以支持一下
+          服务器已经撑爆了，如果慢，请等一会，大佬可以支持一下服务器扩容
           <img width={300} src="/5.jpeg" alt="" />
           <img width={300} src="/10.jpeg" alt="" />
           <img width={300} src="/100.jpeg" alt="" />
