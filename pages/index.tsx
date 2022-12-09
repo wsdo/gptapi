@@ -26,6 +26,53 @@ export default function Home() {
         </p>
 
         <p className={styles.description}>
+          curl 使用方式：
+
+          <code className={styles.code}>{`
+          curl --location --request POST 'https://v1.gptapi.cn' \
+--header 'User-Agent: apifox/1.0.0 (https://www.apifox.cn)' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5kZXZjdG8uY29tL3YxL2xvZ2luIiwiaWF0IjoxNjY5MTIyMjU0LCJleHAiOjE4MjQ2NDIyNTQsIm5iZiI6MTY2OTEyMjI1NCwianRpIjoiUlB6bXZlN0xvbEp3V2FxVCIsInN1YiI6NTAsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.pj1mOVkFOsmeuX4kVxlrK-j3PhEOecq53vrxe_mRfpI' \
+--data-raw '{
+    "message":"讲个笑话"
+}'
+          `}</code>
+        </p>
+        <p className={styles.description}>
+          axios使用方式：
+
+          <code className={styles.code}>{`
+var axios = require('axios');
+var data = JSON.stringify({
+   "message": "讲个笑话"
+});
+
+var config = {
+   method: 'post',
+   url: 'https://v1.gptapi.cn',
+   headers: { 
+      'Content-Type': 'application/json', 
+      'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5kZXZjdG8uY29tL3YxL2xvZ2luIiwiaWF0IjoxNjY5MTIyMjU0LCJleHAiOjE4MjQ2NDIyNTQsIm5iZiI6MTY2OTEyMjI1NCwianRpIjoiUlB6bXZlN0xvbEp3V2FxVCIsInN1YiI6NTAsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.pj1mOVkFOsmeuX4kVxlrK-j3PhEOecq53vrxe_mRfpI', 
+      'Content-Length': ''
+   },
+   data : data
+};
+
+axios(config)
+.then(function (response) {
+   console.log(JSON.stringify(response.data));
+})
+.catch(function (error) {
+   console.log(error);
+});
+          `}</code>
+        </p>
+
+
+
+
+
+        <p className={styles.description}>
           OpenAI is a research institute focused on advancing artificial intelligence in a responsible way. It was founded in 2015 by a group of prominent researchers, including Elon Musk and Sam Altman, with the goal of promoting and developing friendly AI. OpenAI conducts research in a variety of areas, including machine learning, robotics, and economics. Its work has resulted in several notable achievements, such as the development of the GPT-3 language model and the creation of the Dota 2 AI agent OpenAI Five.
         </p>
         <p className={styles.description}>
