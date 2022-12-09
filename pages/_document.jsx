@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html className="antialiased [font-feature-settings:'ss01']" lang="en">
       <Head>
-        <Script>
+        <Script id="baidu-tongji">
           {`
           var _hmt = _hmt || [];
 (function() {
