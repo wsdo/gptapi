@@ -29,13 +29,8 @@ export default function Home() {
           <code className={styles.code}>By GPT</code>
         </p>
         <p>
-          关注订阅号：产品更新及很多有趣的事情即将发生
+          关注订阅号：点击菜单加群，直接群里 @ChatGPT 或者私聊 就可以问答
           <img width={300} src="/wxsub.jpeg" alt="" />
-        </p>
-        <p className={styles.description}> 使用问题可以加群
-          <img width={300} src="/wx4.jpeg" alt="" />
-          <img width={300} src="/wx5.jpeg" alt="" />
-
         </p>
         <p className={styles.description}>
           服务器已经撑爆了，如果慢，请等一会，大佬可以支持一下服务器扩容
