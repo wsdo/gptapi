@@ -25,6 +25,9 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
+          专线v2版本刚宽带升级了一倍速度基本五秒之内，提升了很多。有需要的可以赞助扫码加我。
+        </p>
+        <p className={styles.description}>
           由 GPT API{' '} 强力驱动：  <a href="https://gptapi.cn">https://gptapi.cn</a>
           <code className={styles.code}>By GPT</code>
         </p>
